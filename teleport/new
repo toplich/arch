@@ -22,4 +22,4 @@
 ## 2. 🖥 Install Teleport on Linux Host
 
 ```bash
-curl https://cdn.teleport.dev/install.sh | bash -s 17.4.8
+curl https://cdn.teleport.dev/install.sh | bash -s 17.4.8 ```
