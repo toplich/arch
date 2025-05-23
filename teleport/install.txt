@@ -1,7 +1,13 @@
 https://goteleport.com/docs/admin-guides/deploy-a-cluster/linux-demo/
 
-- Configure DNS
-create two DNS A records teleport.example.com and *.teleport.example.com
+🚀 Teleport Installation Guide
+
+🔧 1. Configure DNS
+Створи два DNS-записи типу A:
+teleport.example.com
+*.teleport.example.com
+Це потрібно для ACME (Let's Encrypt) та веб-інтерфейсу.
+
 - Set up Teleport on your Linux host
 <pre> ``` curl https://cdn.teleport.dev/install.sh | bash -s 17.4.8 ``` </pre>
 - Generate a configuration file for Teleport
